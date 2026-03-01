@@ -26,13 +26,17 @@ var/
 .ipynb_checkpoints
 *.ipynb_checkpoints/
 
-# Data files
-data/raw/*
-data/processed/*
+# Data files - CHỈ BỎ QUA FILE LỚN (train.csv, test.csv)
+data/raw/train.csv
+data/raw/test.csv
+# Giữ lại các file khác trong data/raw (nếu có)
 !data/raw/.gitkeep
+
+# Processed data - ĐẨY TẤT CẢ (bỏ comment để giữ lại)
+# data/processed/*
 !data/processed/.gitkeep
 
-# Model files
+# Model files - BỎ QUA MODEL NHƯNG GIỮ THƯ MỤC
 outputs/models/*
 !outputs/models/.gitkeep
 
@@ -53,3 +57,8 @@ logs/
 
 # Environment
 .env
+
+# Temporary files
+*.tmp
+*.temp
+*.bak

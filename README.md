@@ -13,7 +13,7 @@
 
 ## 📌 1. Giới thiệu dự án
 
-Dự án **Sentiment Analysis** được thực hiện trong khuôn khổ môn học **Khai phá dữ liệu (Data Mining)**.
+Dự án **Sentiment Analysis** được thực hiện trong khuôn khổ môn học **Data Mining**.
 
 Mục tiêu chính của dự án là:
 
@@ -32,7 +32,7 @@ Dự án áp dụng đầy đủ các hướng tiếp cận trong Data Mining:
 
 ## 👥 Thông tin học phần
 
-* **Môn học:** Khai phá dữ liệu (Data Mining)
+* **Môn học:** Data Mining
 * **Giảng viên hướng dẫn:** ThS. Lê Thị Thùy Trang
 * **Nhóm thực hiện:** Nhóm 7
 * **Học kỳ:** II – Năm học 2025–2026
@@ -273,6 +273,6 @@ Cảm ơn các thành viên Nhóm 7 đã hợp tác và đóng góp để hoàn 
 
 ---
 
-**© 2026 – Sentiment Analysis Project | Data Mining | Học kỳ II – 2025–2026**
+**© 2026 – Bài tập lớn | Data Mining | Học kỳ II – 2025–2026**
 
 ---
