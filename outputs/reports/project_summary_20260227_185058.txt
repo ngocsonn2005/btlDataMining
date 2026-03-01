@@ -1,0 +1,41 @@
+================================================================================
+SENTIMENT ANALYSIS PROJECT - FINAL SUMMARY
+Generated: 2026-02-27 18:50:58
+================================================================================
+
+CLASSIFICATION
+----------------------------------------
+Model Comparison:
+                 Model  Accuracy  Precision    Recall  F1-score   ROC-AUC  Train Time (s)
+1  logistic_regression    0.8267   0.829808  0.830621  0.830215  0.909295        1.088005
+2        random_forest    0.7672   0.742183  0.832974  0.784962  0.854246        4.556792
+0          naive_bayes    0.7731   0.766767  0.797883  0.782016  0.825842        0.912546
+
+CLUSTERING
+----------------------------------------
+Cluster Profiles:
+   cluster_id   size  percentage                                top_words                                                                                                                                                                                                                                                                                                                     examples
+0           0   1151       2.302  fiction, histor, scienc, novel, histori  [love blood thirsti pirat treasur huntin book fill brim pirat billi bone black dog blind pew israel h..., certainli interest read princess mar histor standpoint influenc whole centuri scifi came howev exact..., get program run miller effici run cadi one phd exercis scienc master degre physic therapi spiritu ad...]
+1           1  48849      97.698            product, cd, buy, album, song                                                                                                             [alway austen novel pleasur savor like fine wine languag exquisit make one want keep reread book reco..., theyv tri replac door live releas great cd find copi grab, gift son fit perfectli realli good qualiti]
+
+ASSOCIATION RULES
+----------------------------------------
+total_rules              : 2
+rules_by_length          : {'1-item antecedents': 2, '2-item antecedents': 0, '3-item antecedents': 0}
+top_confidence_rules     : []
+top_support_rules        : []
+avg_lift                 : 2.3575
+avg_confidence           : 0.6648
+avg_support              : 0.1817
+max_lift                 : 2.3575
+max_confidence           : 0.7819
+max_support              : 0.1817
+
+SEMI-SUPERVISED LEARNING
+----------------------------------------
+   labeled_percent         method  test_accuracy   test_f1  supervised_accuracy  supervised_f1  improvement  pseudo_labels  iterations
+0                5  self_training         0.7207  0.720492               0.7194       0.719216     0.001276          37500          39
+1               10  self_training         0.7656  0.765429               0.7717       0.771556    -0.006127          35000          16
+2               20  self_training         0.8030  0.802918               0.8069       0.806838    -0.003920          30000          15
+3               30  self_training         0.8127  0.812591               0.8168       0.816696    -0.004105          25000          16
+4               50  self_training         0.8237  0.823612               0.8250       0.824923    -0.001311          15000           7

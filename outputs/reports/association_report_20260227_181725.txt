@@ -1,0 +1,24 @@
+================================================================================
+ASSOCIATION RULES REPORT
+Generated: 2026-02-27 18:17:25
+================================================================================
+
+SUMMARY STATISTICS
+----------------------------------------
+total_rules              : 2
+rules_by_length          : {'1-item antecedents': 2, '2-item antecedents': 0, '3-item antecedents': 0}
+avg_lift                 : 2.3575
+avg_confidence           : 0.6648
+avg_support              : 0.1817
+max_lift                 : 2.3575
+max_confidence           : 0.7819
+max_support              : 0.1817
+
+RULES BY ANTECEDENT LENGTH
+----------------------------------------
+1-item antecedents       : 2
+2-item antecedents       : 0
+3-item antecedents       : 0
+
+TOP 5 RULES BY LIFT
+----------------------------------------

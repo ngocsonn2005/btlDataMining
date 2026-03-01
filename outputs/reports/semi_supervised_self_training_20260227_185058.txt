@@ -1,0 +1,21 @@
+================================================================================
+SEMI-SUPERVISED LEARNING REPORT
+Method: self_training
+Generated: 2026-02-27 18:50:58
+================================================================================
+
+EXPERIMENT RESULTS
+----------------------------------------
+   labeled_percent         method  test_accuracy   test_f1  supervised_accuracy  supervised_f1  improvement  pseudo_labels  iterations
+0                5  self_training         0.7207  0.720492               0.7194       0.719216     0.001276          37500          39
+1               10  self_training         0.7656  0.765429               0.7717       0.771556    -0.006127          35000          16
+2               20  self_training         0.8030  0.802918               0.8069       0.806838    -0.003920          30000          15
+3               30  self_training         0.8127  0.812591               0.8168       0.816696    -0.004105          25000          16
+4               50  self_training         0.8237  0.823612               0.8250       0.824923    -0.001311          15000           7
+
+BEST IMPROVEMENT
+----------------------------------------
+Labeled 5%:
+  • Semi-supervised F1: 0.7205
+  • Supervised F1: 0.7192
+  • Improvement: 0.0013

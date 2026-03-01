@@ -1,0 +1,23 @@
+================================================================================
+CLUSTERING REPORT
+Method: kmeans
+Generated: 2026-02-27 18:33:51
+================================================================================
+
+CLUSTERING METRICS
+----------------------------------------
+silhouette          : 0.0226
+davies_bouldin      : 8.4664
+calinski_harabasz   : 63.1192
+n_clusters          : 2
+
+CLUSTER SIZES
+----------------------------------------
+Cluster 0: 1,151 samples
+Cluster 1: 48,849 samples
+
+CLUSTER PROFILES
+----------------------------------------
+   cluster_id   size  percentage                                top_words                                                                                                                                                                                                                                                                                                                     examples
+0           0   1151       2.302  fiction, histor, scienc, novel, histori  [like sever other review book found total wast time abl read entir book one day kept think got get be..., like great book caus stir either idea fact theyr shock think rand atla shrug mccrae bark dogwood clo..., excel movi follow histor fact less superb flight sequenc assum computer almost sexual content adult ...]
+1           1  48849      97.698            product, cd, buy, album, song  [dog surviv parvo help speed recoveri purchas nutric believ product help pup immens would recommend e..., dude pick book thought would okay see dragon cover absolut right got ta bestest book anyon anywher e..., upon hear feel blown away overpow musicianship well differ rang jeremi sing although lack drive brea...]

@@ -1,0 +1,109 @@
+# ============================================================
+# CONFIGURATION FILE FOR SENTIMENT ANALYSIS PROJECT
+# ============================================================
+
+# Data paths
+data:
+  raw_train_path: "data/raw/train.csv"
+  raw_test_path: "data/raw/test.csv"
+  processed_dir: "data/processed/"
+  
+# Column names
+columns:
+  label: "label"
+  title: "title"
+  review_text: "review_text"
+  
+# Preprocessing parameters
+preprocessing:
+  text_column: "review_text"
+  title_column: "title"
+  label_column: "label"
+  positive_label: 2
+  negative_label: 1
+  test_size: 0.2
+  random_state: 42
+  min_review_length: 5
+  max_review_length: 1000
+  remove_stopwords: true
+  do_stemming: true
+  do_lemmatization: false
+  
+# Feature engineering
+features:
+  tfidf:
+    max_features: 1000
+    ngram_range: [1, 2]
+    min_df: 5
+    max_df: 0.8
+  word2vec:
+    vector_size: 100
+    window: 5
+    min_count: 2
+    workers: 4
+    epochs: 10
+  
+# Association rules mining
+association:
+  min_support: 0.1
+  max_len: 3
+  metric: "lift"
+  min_threshold: 1.2
+  filter_min_support: 0.01
+  filter_min_confidence: 0.3
+  filter_min_lift: 1.2
+  filter_max_antecedents: 2
+  filter_max_consequents: 1
+  top_n_rules: 20
+  
+# Clustering
+clustering:
+  k_min: 2
+  k_max: 10
+  n_clusters: null
+  random_state: 42
+  projection_method: "pca"
+  
+# Classification
+classification:
+  models: ["naive_bayes", "logistic_regression", "random_forest", "xgboost", "lstm"]
+  cv_folds: 5
+  scoring: "f1_macro"
+  random_state: 42
+  lstm:
+    embedding_dim: 100
+    hidden_dim: 128
+    dropout: 0.5
+    batch_size: 64
+    epochs: 10
+    learning_rate: 0.001
+    
+# Semi-supervised
+semi_supervised:
+  labeled_percents: [5, 10, 20, 30, 50]
+  random_state: 42
+  self_training:
+    max_iter: 100
+    threshold: 0.75
+  label_propagation:
+    kernel: "knn"
+    n_neighbors: 7
+    
+# Evaluation
+evaluation:
+  classification_metrics: ["accuracy", "precision", "recall", "f1", "roc_auc"]
+  clustering_metrics: ["silhouette", "davies_bouldin", "calinski_harabasz"]
+  
+# Output paths
+outputs:
+  figures_dir: "outputs/figures/"
+  tables_dir: "outputs/tables/"
+  models_dir: "outputs/models/"
+  reports_dir: "outputs/reports/"
+  
+# Visualization
+visualization:
+  figure_size: [12, 8]
+  dpi: 100
+  color_palette: "viridis"
+  plot_style: "seaborn-v0_8-whitegrid"

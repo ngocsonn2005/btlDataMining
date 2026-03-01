@@ -1,0 +1,30 @@
+================================================================================
+CLASSIFICATION MODEL REPORT
+Model: logistic_regression
+Generated: 2026-02-27 18:32:52
+================================================================================
+
+MODEL COMPARISON
+----------------------------------------
+                 Model  Accuracy  Precision    Recall  F1-score   ROC-AUC  Train Time (s)
+1  logistic_regression    0.8267   0.829808  0.830621  0.830215  0.909295        1.070320
+2        random_forest    0.7672   0.742183  0.832974  0.784962  0.854246        4.511393
+0          naive_bayes    0.7731   0.766767  0.797883  0.782016  0.825842        0.868266
+
+BEST MODEL METRICS
+----------------------------------------
+accuracy            : 0.8267
+precision           : 0.8298
+recall              : 0.8306
+f1                  : 0.8302
+roc_auc             : 0.9093
+train_time          : 1.0703
+model               : LogisticRegression(class_weight='balanced', max_iter=1000, random_state=42)
+
+CONFUSION MATRIX
+----------------------------------------
+      Predicted
+           0     1
+True
+   0    4030   869
+   1     864  4237

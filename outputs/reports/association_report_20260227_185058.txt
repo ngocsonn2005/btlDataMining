@@ -1,0 +1,36 @@
+================================================================================
+ASSOCIATION RULES REPORT
+Generated: 2026-02-27 18:50:58
+================================================================================
+
+SUMMARY STATISTICS
+----------------------------------------
+total_rules              : 2
+rules_by_length          : {'1-item antecedents': 2, '2-item antecedents': 0, '3-item antecedents': 0}
+avg_lift                 : 2.3575
+avg_confidence           : 0.6648
+avg_support              : 0.1817
+max_lift                 : 2.3575
+max_confidence           : 0.7819
+max_support              : 0.1817
+
+RULES BY ANTECEDENT LENGTH
+----------------------------------------
+1-item antecedents       : 2
+2-item antecedents       : 0
+3-item antecedents       : 0
+
+TOP 5 RULES BY LIFT
+----------------------------------------
+
+1. book → read
+   Lift: 2.36, Confidence: 0.55, Support: 0.1817
+
+2. read → book
+   Lift: 2.36, Confidence: 0.78, Support: 0.1817
+
+TOP 20 RULES
+----------------------------------------
+  antecedents_str consequents_str   support  confidence      lift
+0            book            read  0.181654    0.547705  2.357494
+1            read            book  0.181654    0.781897  2.357494

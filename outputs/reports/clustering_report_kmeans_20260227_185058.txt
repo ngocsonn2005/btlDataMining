@@ -1,0 +1,23 @@
+================================================================================
+CLUSTERING REPORT
+Method: kmeans
+Generated: 2026-02-27 18:50:58
+================================================================================
+
+CLUSTERING METRICS
+----------------------------------------
+silhouette          : 0.0226
+davies_bouldin      : 8.4664
+calinski_harabasz   : 63.1192
+n_clusters          : 2
+
+CLUSTER SIZES
+----------------------------------------
+Cluster 0: 1,151 samples
+Cluster 1: 48,849 samples
+
+CLUSTER PROFILES
+----------------------------------------
+   cluster_id   size  percentage                                top_words                                                                                                                                                                                                                                                                                                                     examples
+0           0   1151       2.302  fiction, histor, scienc, novel, histori  [love blood thirsti pirat treasur huntin book fill brim pirat billi bone black dog blind pew israel h..., certainli interest read princess mar histor standpoint influenc whole centuri scifi came howev exact..., get program run miller effici run cadi one phd exercis scienc master degre physic therapi spiritu ad...]
+1           1  48849      97.698            product, cd, buy, album, song                                                                                                             [alway austen novel pleasur savor like fine wine languag exquisit make one want keep reread book reco..., theyv tri replac door live releas great cd find copi grab, gift son fit perfectli realli good qualiti]
