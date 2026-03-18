@@ -44,6 +44,8 @@ Dự án áp dụng đầy đủ các hướng tiếp cận trong Data Mining:
 ```
 SENTIMENT_ANALYSIS_PROJECT/
 │
+├── configs 
+│
 ├── data/
 │   ├── raw/                  # Dữ liệu gốc
 │   └── processed/            # Dữ liệu đã xử lý
