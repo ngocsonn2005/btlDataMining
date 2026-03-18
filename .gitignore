@@ -36,9 +36,16 @@ data/raw/test.csv
 # data/processed/*
 !data/processed/.gitkeep
 
-# Model files - BỎ QUA MODEL NHƯNG GIỮ THƯ MỤC
+# ==========================================
+# MODEL FILES - CHO PHÉP TẤT CẢ FILE .pkl HIỆN CÓ
+# ==========================================
+# Bỏ qua tất cả file trong outputs/models
 outputs/models/*
+# NHƯNG cho phép các file model .pkl (bao gồm best_logistic_regression.pkl, kmeans_model.pkl, scaler.pkl, tfidf_vectorizer.pkl)
+!outputs/models/*.pkl
+# Giữ file .gitkeep để maintain thư mục (nếu cần)
 !outputs/models/.gitkeep
+# ==========================================
 
 # IDE
 .idea/
