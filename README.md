@@ -56,7 +56,7 @@ SENTIMENT_ANALYSIS_PROJECT/
 │
 ├── scripts/                  # Chạy pipeline tự động
 │
-├── outputs/                  # Kết quả (models, figures, tables)
+├── outputs/                  # Kết quả (models, figures, tables, reports)
 │
 ├── app.py                    # Streamlit Dashboard
 ├── requirements.txt
