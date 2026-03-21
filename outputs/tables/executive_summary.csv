@@ -1,0 +1,9 @@
+Category,Metric,Value
+Classification,Best Model,SVM
+Classification,Best F1-Score,0.8222
+Clustering,Number of Clusters,4
+Clustering,Avg Positive Ratio,50.4%
+Association Rules,Total Rules,654
+Association Rules,Avg Lift,2.47
+Association Rules,Max Lift,15.11
+Semi-Supervised,Self-Training Best Improvement,0.0156 at 30%
